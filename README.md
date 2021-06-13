@@ -1,6 +1,6 @@
 # React next.js with Redux Image Uploader on MongoDB
 
-![screenshot]("assets/screenshot.png")
+![screenshot](assets/screenshot.png)
 
 
 It also displays images saved as Buffered.
@@ -21,7 +21,7 @@ to display with express.js [in the file](./server.js)
 
 ### Save base64 Image as Buffer on MongoDB
 
-- Convert base64 to Uint8Array in [the file]("controllers/mongodb.js")
+- Convert base64 to Uint8Array in [the file](controllers/mongodb.js)
 
 ```JavaScript
 const buffArray = Buffer.from(_base64Data, "base64");
@@ -29,7 +29,7 @@ const buffArray = Buffer.from(_base64Data, "base64");
 
 - Conver Uint8Array to Buffer
 
-converter in (utils)("./helpers/utils.js"):
+converter in (utils)(helpers/utils.js):
 
 ```JavaScript
 const toBuffer = (ab) => {
