@@ -1,0 +1,248 @@
+.main {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  box-sizing: border-box;
+  display: block;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: block;
+  position: static;
+  float: none;
+}
+
+.container {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.title {
+  line-height: 40px;
+}
+
+.title_row {
+  display: grid;
+  margin-bottom: 27px;
+}
+
+.title_header {
+  display: flex;
+  position: static;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.title_h1 {
+  display: block;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  color: #294661;
+  margin-bottom: 27px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.search {
+  box-sizing: content-box;
+  border: 1px solid #e9ecef;
+  margin-bottom: 30px;
+}
+
+.filter_list {
+  box-sizing: border-box;
+}
+
+.filter_sections {
+  display: inline-block;
+  width: 100%;
+}
+
+.date_section {
+  margin: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.status_section {
+  margin: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.selectInput {
+  width: 100px;
+}
+
+.filter_button {
+  margin-top: 30px;
+  display: flex;
+  float: none;
+  justify-content: right;
+  padding: 20px 50px 30px;
+
+}
+
+.filter_button_own {
+  box-sizing: border-box;
+  position: static;
+  display: inline-block;
+  padding: 6px 18px;
+  margin-left: 12px;
+  color: #fff;
+  background-color: #1188e6;
+  border-color: #1288e5;
+  -webkit-appearance: button;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.result {
+  box-sizing: border-box;
+  display: grid;
+  float: none;
+
+}
+
+
+.table_tr_gen {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #e9ecef;
+}
+
+.table_tr_gen:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.side_menu {
+  background-color: #fff;
+  position: relative;
+  padding: 45px 105px 90px;
+  width: auto;
+  height: 100%;
+}
+
+.fetching {
+  font-weight: lighter;
+}
+.fetching_events {
+  font-weight: lighter;
+}
+
+@font-face { font-family: Colfax; src: url("/colfax-medium.a96521d6.woff2") format("woff2"), url("/colfax-medium.a96521d6.woff2") format("woff"); font-style: normal; font-weight: 600; }
+
+.side_details_title {
+  font-weight: bold;
+  margin-bottom: 12px;
+  font-size: 13px;
+  font-family: Colfax;
+}
+
+.side_event_title {
+  font-weight: bold;
+  margin-bottom: 12px;
+  font-size: 13px;
+  font-family: Colfax;
+}
+
+.side_details {
+  margin: 0 0 45px 0;
+}
+
+.table_label {
+  padding: 15px !important;
+  width: 130px;
+  font-size: 13px;
+}
+
+.detail_table {
+  border-collapse: collapse;
+}
+
+.side_details_table td {
+  padding: 15px !important;
+  font-size: 13px;
+}
+
+.detail_table_tr {
+  border: 1px solid #e9ecef;
+}
+
+.td_desc {
+  font-weight: normal
+}
+
+.accordion {
+  padding-left: 5px;
+  font-size: 13px;
+  text-align: left;
+}
+
+.card_body {
+  font-size: 13px;
+  width: 100%;
+}
+
+.one_event {
+  border: 10px solid #e9ecef;
+}
+
+.in_event_line {
+  font-weight: bold;
+  font-size: 13px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.in_event_line_ac {
+  border-bottom: 1px solid #e9ecef;
+}
+
+.td_col_status_Processing {
+  color: gray;
+}
+
+.td_col_status_Delivered {
+  color: green;
+}
+
+.td_col_status_Not_Delivered {
+  color: red;
+}
+
+.td_col_mes_to {
+  font-style: italic;
+
+}
+
+.td_col_mes_sub {
+  font-weight: 500;
+
+}
+
+.in_event_line_straight {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.ac_line_cont{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.ac_key {
+  font-weight: bold;
+}
+
+.ac_line_title {
+  font-weight: bold;
+}

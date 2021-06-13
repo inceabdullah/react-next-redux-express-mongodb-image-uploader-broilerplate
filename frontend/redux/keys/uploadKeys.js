@@ -1,0 +1,3 @@
+export const UPLOAD_PENDING = "UPLOAD_PENDING";
+export const UPLOAD_DONE = "UPLOAD_DONE";
+export const UPLOAD_REJECTED = "UPLOAD_REJECTED";
